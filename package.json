@@ -1,6 +1,6 @@
 {
-  "name": "StreamServer",
-  "version": "1.0.0",
+  "name": "files_as_stream",
+  "version": "1.0.1",
   "description": "",
   "author": "cchen@artisreit.com",
   "license": "ISC",
@@ -10,14 +10,17 @@
     "build": "node index.js",
     "test": "ava"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chet-cloud/files_as_stream.git"
+  },
   "devDependencies": {
     "express": "^4.17.3",
-    "multistream": "^4.1.0",
     "split-file": "^2.3.0",
-    "stream-slice": "^0.1.2",
     "ava": "^4.0.1"
   },
   "dependencies": {
-
+    "multistream": "^4.1.0",
+    "stream-slice": "^0.1.2"
   }
 }

@@ -80,3 +80,6 @@ export function FileServer(filePath,req,res){
     res.writeHead(206, headers);
     getStream(filePath,start,videoSize).pipe(res)
   }
+
+
+  
