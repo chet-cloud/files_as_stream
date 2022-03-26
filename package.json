@@ -1,0 +1,23 @@
+{
+  "name": "StreamServer",
+  "version": "1.0.0",
+  "description": "",
+  "author": "cchen@artisreit.com",
+  "license": "ISC",
+  "type": "module",
+  "exports": "./lib.js",
+  "scripts": {
+    "build": "node index.js",
+    "test": "ava"
+  },
+  "devDependencies": {
+    "express": "^4.17.3",
+    "multistream": "^4.1.0",
+    "split-file": "^2.3.0",
+    "stream-slice": "^0.1.2",
+    "ava": "^4.0.1"
+  },
+  "dependencies": {
+
+  }
+}
